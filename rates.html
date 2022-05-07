@@ -1,0 +1,152 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Girard Sound Associates</title>
+    <meta name="description" content="Girard Sound Associates provides audio recording services for corporate projects, documentaries, spots, news, conferences and events in the DC metro area.">
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link href="/css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="row">
+      <div class="container">
+      <img class="columns three u-full-width" src="/images/logo.png"/>
+      <nav class="columns nine">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/rates.html">Rates</a></li>
+          <li><a href="/clients.html">Clients</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+<div class="row cover">
+  <div class="container emph">
+
+<h2>Rates</h2>
+</div>
+</div>
+<div class="color-alt">
+  <div class="row color">
+    <div class="container">
+      <h2>Location Recording</h2>
+      <p>
+        Our rate for location recording is made up of three components: labor, equipment, and recording. A rate quote, tailored to the job, is provided when the job is booked. 
+      </p>
+      <p>
+      Labor is based on an 8 hour full day, although other options are available (e.g., 10 hour days, portal-to-portal rates for work done outside the immediate DC area and, occasionally, half days for regular customers). Overtime is charged at 1.5 times the normal hourly rate.
+      </p>
+      <p>
+        The equipment charge covers a typical field production package, including mixer(s), boom microphone, body microphones, and the first 2 wireless systems. Additional wireless are available a la carte, as is a large inventory of specialized audio gear such as Comteks. 
+      </p>
+      <p>
+        There is no recording charge for jobs where the audio is recorded only on the camera (single system sound). Recordings can be made in WAV and/or MP3 formats, with or without time-code reference. Also, up to 12 individual tracks can be recorded. The charge for recording varies depending on the type selected. 
+      </p>
+    </div>
+  </div>
+
+  <div class="row color">
+    <div class="container">
+
+      <h2>
+        Conferences and Events
+      </h2>
+      <p>
+        The cost of a conference or event is made up of two components: labor and equipment. The labor rate is higher than that for location recording in order to cover the cost of pre-production planning, preparation of the equipment package, and re-stocking of the equipment after the job.  Overtime is charged at the same rate as for location recording. More complicated jobs will frequently have a half day of set up prior to the first day of the event.</p>
+
+      <p>
+        The equipment portion of the job cost is driven by the specifications for the event. For example, an event  requiring 12 wireless microphones, sound reinforcement  and a 12 track audio recording will cost substantially more than a 6 person panel discussion for which there is no audience, and the audio mix is recorded to a single camera.</p>
+
+      <p>
+        Once the timing of the event is known, and the specifications are understood, a budget is provided. This budget is the final price of the job, unless there are major changes to the scope of work before, or during, the event.</p>
+    </div>
+  </div>
+
+  <div class="row color">
+    <div class="container">
+
+      <h2>
+        Audio Editing
+      </h2>
+
+      <p>
+        There are two types of audio editing: audio only and mix-to-pix. There are different labor rates for each.
+      </p>
+    </div>
+  </div>
+
+  <div class="row color">
+    <div class="container">
+
+
+      <h2>Forensic Audio</h2>
+      <p>
+        While the tools and techniques employed to do forensic audio are similar to those used for the type of audio sweetening done in mix-to-pix editing, the work is much more  tedious. This is because the source material is usually of very poor quality. Therefore, the labor rate is higher than for mix-to-pix audio editing.
+      </p>
+    </div>
+  </div>
+
+  <div class="row color">
+    <div class="container">
+
+      <h2>Audio Measurement</h2>
+      <p>
+        There are 3 types of charges for audio measurement projects:
+        </p>
+        <ul>
+          <li>
+            site visits and pre-production activities,
+          </li>
+          <li>
+            measurement sessions, and
+          </li>
+          <li>
+            analysis and report writing.
+          </li>
+        </ul>
+        <p>
+        Each of these charges are based on a different labor rate. 
+      </p>
+    </div>
+  </div>
+<footer class="container">
+  <div class="inside">
+    <div class="row">
+      <div class="columns three">
+        (301) 431-5135
+      </div>
+      <div class="columns three">
+        <a target="_blank" href="https://www.linkedin.com/in/girardsoundassociates">LinkedIn</a>
+      </div>
+      <div class="columns three">
+        <a class="email">Click for Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div> <!-- Close container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready ( function () {
+      $(".email").click( function (e) {
+        $(this).html("david@girardsoundassociates.com").attr("href","mailto:david@girardsoundassociates.com");
+      });
+      $(".client-images li").hide();
+      $(".client-images li").eq(0).show();
+      var i = 0;
+      var s = function() {
+      $(".client-images li").hide();
+      $(".client-images li").eq(i % $(".client-images li").size()).show();
+      i++;
+      };
+      setInterval(s, 1250);
+      });
+
+    </script>
+  </body>
+</html>
+

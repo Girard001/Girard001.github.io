@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Girard Sound Associates</title>
+    <meta name="description" content="Girard Sound Associates provides audio recording services for corporate projects, documentaries, spots, news, conferences and events in the DC metro area.">
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link href="/css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="row">
+      <div class="container">
+      <img class="columns three u-full-width" src="/images/logo.png"/>
+      <nav class="columns nine">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/rates.html">Rates</a></li>
+          <li><a href="/clients.html">Clients</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+<div class="row cover">
+  <div class="container">
+    <blockquote>
+      "See, I can live with an out-of-focus picture. I can live with a grainy picture. I can live with a badly framed picture. But I can't live with grainy audio, out-of-focus audio, or badly framed audio."
+    </blockquote>
+    <div class="author">
+      <strong>Don Hewitt</strong><br/>
+      <em>Founding Producer</em><br/>
+      60 Minutes
+    </div>
+  </p>
+</div>
+</div>
+<div class="row content">
+  <div class="container">
+    <div class="five columns">
+      <h3>"Why do I need a Soundman?"</h3>
+      <p><em>Can you produce a video without using a soundman? In some cases, maybe you can.</em></p>
+    <p>
+      Should you? <a href="/why.html">Click here</a> to find out. 
+    </p>
+    </div>
+    <div class="two columns">&nbsp;</div>
+    <div class="five columns">
+      <h3>
+        Featured Service
+      </h3>
+      <h4>
+        Conferences and Events
+      </h4>
+      <p>
+        Girard Sound Associates is unique among location sound recordists in the DC metro area. We are the only provider who also offers a complete solution for conferences and events. As such, we compete with local hotels and conference centers, and their AV vendors. While these providers can usually do an adequate job of sound reinforcement, they rarely produce the most basic element of good recorded sound, namely clean tracks. Girard Sound Associates does both reinforcement and recording, and does it very well. 
+      </p>
+      <p>
+        <a href="/services.html">More Services</a>
+        </p>
+    </div>
+  </div>
+</div>
+<div class="content black">
+  <div class="container">
+    <div class="row center">
+      <h5>Girard Sound Associates provides event audio for DC's top production companies.</h5>
+    </div>
+    <div class="row">
+      <div class="columns three">
+        <img src="/images/moon.png" class="u-full-width">
+      </div>
+      <div class="columns three">
+        <img src="/images/efx.png" class="u-full-width">
+      </div>
+      <div class="columns three">
+        <img src="/images/eyetoeye.png" class="u-full-width">
+      </div>
+      <div class="columns three">
+        <img src="/images/hp.png" class="u-full-width">
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="container">
+  <div class="inside">
+    <div class="row">
+      <div class="columns three">
+        (301) 431-5135
+      </div>
+      <div class="columns three">
+        <a target="_blank" href="https://www.linkedin.com/in/girardsoundassociates">LinkedIn</a>
+      </div>
+      <div class="columns three">
+        <a class="email">Click for Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div> <!-- Close container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready ( function () {
+      $(".email").click( function (e) {
+        $(this).html("david@girardsoundassociates.com").attr("href","mailto:david@girardsoundassociates.com");
+      });
+      $(".client-images li").hide();
+      $(".client-images li").eq(0).show();
+      var i = 0;
+      var s = function() {
+      $(".client-images li").hide();
+      $(".client-images li").eq(i % $(".client-images li").size()).show();
+      i++;
+      };
+      setInterval(s, 1250);
+      });
+
+    </script>
+  </body>
+</html>
+

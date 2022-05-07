@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Girard Sound Associates</title>
+    <meta name="description" content="Girard Sound Associates provides audio recording services for corporate projects, documentaries, spots, news, conferences and events in the DC metro area.">
+    <link href="/css/reset.css" rel="stylesheet"/>
+    <link href="/css/main.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <header class="row">
+      <div class="container">
+      <img class="columns three u-full-width" src="/images/logo.png"/>
+      <nav class="columns nine">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/about.html">About</a></li>
+          <li><a href="/services.html">Services</a></li>
+          <li><a href="/rates.html">Rates</a></li>
+          <li><a href="/clients.html">Clients</a></li>
+        </ul>
+      </nav>
+      </div>
+    </header>
+
+<div class="row cover">
+  <div class="container emph">
+
+<h2>RECENT CLIENT LIST</h2>
+</div>
+</div>
+<div class="row content op-push-right">
+  <div class="container">
+    <div class="columns three">
+      <ul class="large-list no-bullets">
+        <li>BBC</li>
+        <li>Maximus</li>
+        <li>Newsgroup Communications </li>
+        <li>Michael Audick </li>
+        <li>Video Arts Productions </li>
+        <li>ABC </li>
+        <li>Thomas Haller </li>
+        <li>Trent Watts </li>
+        <li>NBC </li>
+        <li>David Krupin </li>
+        <li>Rocket Media Group </li>
+        <li>Moon Bounce Media </li>
+        <li>Cortina Productions </li>
+        <li>EFX Media </li>
+        <li>Rock Creek Productions </li>
+        <li>PCI Communications </li>
+        <li>Ventana Productions </li>
+        <li>Over the Edge Productions </li>
+        <li>Edward Reinsel </li>
+      </ul>
+    </div>
+    <div class="columns three">
+      <ul class="large-list no-bullets">
+        <li>GVI </li>
+        <li>Thomas Kaufman </li>
+        <li>Media Central </li>
+        <li>Eye to Eye Video Productions </li>
+        <li>Dominic DeSantis </li>
+        <li>Maslow Media Group </li>
+        <li>Picture Machine Productions</li>
+        <li>Jeffery Trussell </li>
+        <li>Shoot DC </li>
+        <li>Lifetime </li>
+        <li>Jonathan Gruber </li>
+        <li>Interface Media Group </li>
+        <li>David Hopper </li>
+        <li>Wide Iris </li>
+        <li>Atlantic Television </li>
+        <li>William Donald </li>
+        <li>HP Productions </li>
+        <li>Visual Edge Productions </li>
+        <li>EyeMagic Productions </li>
+      </ul>
+    </div>
+    <div class="columns two">&nbsp;</div>
+    <div class="columns four">
+      <ul class="client-images">
+        <li><img class="u-full-width" src="/images/image.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image2.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image3.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image4.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image5.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image6.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image7.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image8.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image9.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image10.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image11.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image12.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image13.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image14.jpeg"/></li>
+        <li><img class="u-full-width" src="/images/image15.jpeg"/></li>
+      </ul>
+    </div>
+  </div>
+</div>
+<footer class="container">
+  <div class="inside">
+    <div class="row">
+      <div class="columns three">
+        (301) 431-5135
+      </div>
+      <div class="columns three">
+        <a target="_blank" href="https://www.linkedin.com/in/girardsoundassociates">LinkedIn</a>
+      </div>
+      <div class="columns three">
+        <a class="email">Click for Email</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</div> <!-- Close container -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script type="text/javascript">
+  $(document).ready ( function () {
+      $(".email").click( function (e) {
+        $(this).html("david@girardsoundassociates.com").attr("href","mailto:david@girardsoundassociates.com");
+      });
+      $(".client-images li").hide();
+      $(".client-images li").eq(0).show();
+      var i = 0;
+      var s = function() {
+      $(".client-images li").hide();
+      $(".client-images li").eq(i % $(".client-images li").size()).show();
+      i++;
+      };
+      setInterval(s, 1250);
+      });
+
+    </script>
+  </body>
+</html>
+
